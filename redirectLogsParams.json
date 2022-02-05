@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspOfferName": {
+            "value": "SecureCloudBlog AAD log redirect"
+        },
+        "rgName": {
+            "value": "rg-redirectlogs-11978"
+        },
+        "mspOfferDescription": {
+            "value": "Provide Azure Monitor for B2C resource"
+        },
+        "managedByTenantId": {
+            "value": "5664bfa1-028e-4719-9ac8-5aca91fe287e"
+        },
+        "authorizations": {
+            "value": [
+                {
+                    "principalId": "5ce34450-e1fe-421a-a247-d4ea063bfcae",
+                    "principalIdDisplayName": "Monitoring Contributor",
+                    "roleDefinitionId": "749f88d5-cbae-40b8-bcfc-e573ddc772fa"
+                }
+            ]
+        }
+    }
+}

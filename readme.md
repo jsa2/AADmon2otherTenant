@@ -53,8 +53,8 @@ az monitor log-analytics workspace create --location $location -g $rg  -n laws${
             "value": [
                 {
                     "principalId": "<✅GroupObjectId>",
-                    "principalIdDisplayName": "Monitoring Contributor",
-                    "roleDefinitionId": "749f88d5-cbae-40b8-bcfc-e573ddc772fa"
+                    "principalIdDisplayName": " Contributor",
+                    "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
                 }
             ]
         }
